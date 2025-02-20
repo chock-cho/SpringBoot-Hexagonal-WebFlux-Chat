@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+
+dependencies {
+    implementation project(':core-module')
+    implementation project(':common-module')
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+}
+

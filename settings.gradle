@@ -1,0 +1,8 @@
+rootProject.name = 'chat-project'
+
+include 'api-module'
+include 'core-module'
+include 'domain-module'
+include 'adapter-in-module'
+include 'adapter-out-module'
+include 'common-module'

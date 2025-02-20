@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation project(':domain-module')
+    implementation 'org.springframework.boot:spring-boot-starter-data-r2dbc'
+    implementation 'io.asyncer:r2dbc-mysql'
+}
